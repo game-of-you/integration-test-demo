@@ -14,4 +14,4 @@ app.get('/messages',(req,res)=>{
 app.listen(port,()=>{
 	//console.log(`Running webhook listener...`);
 	console.log(`App listening on port ${port}`);
-}) ;
+});
